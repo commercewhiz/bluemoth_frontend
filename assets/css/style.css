@@ -1,0 +1,43 @@
+.header {
+	margin-top: 40px;
+}
+
+.header-container{
+	max-width: 1206px;
+	border: 1px solid red;
+ 	margin: auto;
+ 	padding: 10px;
+	position: sticky;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.itc {
+	display : flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.nav-list{
+	display : flex;
+	flex-direction : row;
+	justify-content : center;
+	align-items : center;
+    list-style-type: none; /* Remove the bullet points */
+}
+
+.nav-list > li > a {
+	text-decoration: none; /* Remove underline */
+    color: inherit; 
+}
+
+.action-link{
+	text-decoration: none; /* Remove underline */
+    color: inherit;
+}
